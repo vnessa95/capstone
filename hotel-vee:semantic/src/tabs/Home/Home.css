@@ -1,0 +1,261 @@
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#home-info {
+    height: 400px;
+}
+
+#home-info .info-img {
+    float: left;
+    width: 50%;
+    background: url("./img/restaurant.jpeg") no-repeat ;
+    min-height: 100%; 
+
+}
+
+#home-info .info-content {
+    float: right;
+    width: 50%;
+    height: 100%;
+    padding: 50px;
+    overflow: hidden;
+    text-align: center;
+}
+
+#home-info .info-content p {
+    padding-bottom: 30px;
+}
+
+button{
+    background-color:#444;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    margin-left: 12%;
+}
+
+/* showcase */
+#showcase {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./img/hotel.jpeg") no-repeat center center;
+    background-size: cover;
+    height: 650px;
+}
+
+#showcase .showcase-content {
+    color: #fff;
+    text-align: center;
+    padding-top: 170px;
+    align-content: center;
+}
+
+#showcase .showcase-content h1 {
+    font-size: 60px;
+    line-height: 1.2em;
+}
+
+#showcase .showcase-content p {
+    padding-bottom: 20px;
+   
+    line-height: 1.7em;
+}
+
+
+/* Main Styles */
+html, body {
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+    line-height: 1.7em;
+    height: 100%;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+#navbar {
+    background: #333;
+    color: #fff;
+    display: flex;
+
+
+
+}
+
+#navbar a{
+  
+    color: #fff;
+}
+
+
+
+
+#navbar ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    /* float: right; */
+}
+
+/* #navbar ul li{
+    float: left;
+} */
+
+#navbar ul li a{
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+/* pseudo elements */
+#navbar ul li a:hover,
+#navbar ul li a.current{
+    background: #444;
+    color:  rgb(194, 85, 34);
+}
+
+
+/* footer */
+#main-footer{
+    text-align: center;
+    background: #444;
+    color: #fff;
+    padding: 20px;
+}
+
+.right-col h1{
+    font-size: 26px;
+    padding: 10px;
+
+}
+
+.right-col p {
+    padding: 10px;
+}
+
+
+
+.news-form{
+    
+}
+.border{
+    width: 210px;
+    height: 4px;
+    background: rgb(194, 85, 34);
+    margin: auto;
+   
+}
+.txtb{
+    flex: 1;
+    padding: 18px 40px 10px;
+    font-size: 16px;
+    color: white;
+    background: rgba(194, 85, 34, 0.295);
+    border: none;
+    font-weight: 700;
+    outline: none;
+    border-radius: 30px;
+    min-width: 260px;
+}
+
+#btn{
+   padding: 18px 40px;
+   font-size: 16px;
+   color: white;
+   background: rgb(194, 85, 34);
+   border: none;
+   font-weight: 700;
+   outline: none;
+   border-radius: 30px;
+   margin-left: 20px;
+   cursor: pointer;
+   transition: opacity .3s linear;
+ 
+}
+
+.btn:hover{
+   opacity: .7;
+}
+
+
+/* features */
+.box {
+    float: left;
+    width: 33.3%;
+    padding: 20px;
+    text-align: center;
+}
+
+#features h3 {
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+
+#features p {
+    padding: 10px;
+}
+
+
+/* Utility class */
+.clr {
+    clear: both;
+}
+
+.container{
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20 px;
+}
+
+.text-primary {
+    color: rgb(194, 85, 34); 
+    text-transform: uppercase; 
+}
+
+.info-content h2 {
+font-size: 30px;
+text-transform: capitalize;
+padding-bottom: 15px;
+}
+
+.lead {
+    font-size: 20px;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    background: #333;
+    padding: 13px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(194, 85, 34);
+    color: #333;
+}
+
+.btn-light {
+    background:#fff;
+    color: #333;
+    }
+    
+    .bg-dark {
+        background: #333;
+        color: #fff;
+    }
+     
+    .bg-primary {
+        background:  rgb(194, 85, 34);
+        columns: #333;
+    }
+    
+    .l-heading{
+        font-size: 40px;
+        padding-top: 55px;
+        padding-bottom: 10px;
+    }

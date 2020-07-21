@@ -1,0 +1,130 @@
+<html lang="en">
+
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dom Manipulation Hard</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: url("/img/pink.jpeg") no-repeat center/cover;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 55px;
+      margin-top: 200px;
+      padding: 55px;
+      color: #D4AF37;
+      font-family: 'Lobster Two', cursive;
+    }
+
+    h2 {
+      font-size: 45px;
+      color: #D4AF37;
+      font-family: cursive;
+    }
+
+    button {
+      padding: 10px;
+      box-shadow: 0 0 50px 25px snow;
+      border: none;
+      width: 500px;
+      height: 250px;
+      background-color:snow/* rgba(201, 114, 166, 0.973); */;
+      border:#D4AF37 1px dashed;
+    }
+
+    #btns {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    .btn-pink{
+      box-shadow: 0 0 50px 25px rgba(201, 114, 166, 0.973);
+      background-color: rgba(201, 114, 166, 0.973);
+    }
+
+    .btn-gold{
+      box-shadow: 0 0 50px 25px #D4AF37;
+      background-color: #D4AF37;
+    }
+
+    .blue-clouds {
+      background: url("/img/blue.jpg") no-repeat center/cover;
+    }
+
+    .org-clouds {
+      background: url("/img/orange.jpg") no-repeat center/cover;
+    }
+  </style>
+
+</head>
+
+
+<body>
+  <h1>Click the buttons to see a couple of my favorite skyviews</h1>
+  <div id="btns">
+    <div onClick="chgShadow('pink')">
+      <button class="btn" onClick="chgColor('blue')">
+        <h2>Clear skies</h2>
+      </button>
+    </div>
+    <div onClick="chgShadow('gold')">
+      <button  class="btn" onClick="chgColor('org')">
+        <h2>The sunset</h2>
+      </button>
+    </div>
+  </div>
+  <script>
+
+    //  Do Stuff Here
+    // function chgShadow(shadow) {
+    //         var pageShadow = document.querySelector('button');
+    //         var pageBody = document.querySelector('body');
+    //         if (shadow === 'pink') {
+    //             pageShadow.classList.add('btn-gold');
+    //             pageBody.classList.add('bg-red');
+    //             pageShadow.classList.remove('btn-pink');
+    //             pageBody.classList.remove('bg-white');
+    //         } else if (shadow === 'gold') {
+    //             pageShadow.classList.add('btn-pink');
+    //             pageBody.classList.add('bg-white');
+    //             pageShadow.classList.remove('btn-gold');
+    //             pageBody.classList.remove('bg-red');
+    //         }
+    //     };
+
+    function chgColor(color) {
+      var pageBody = document.querySelector('body');
+      if (color === 'blue') {
+        pageBody.classList.add('blue-clouds');
+        pageBody.classList.remove('org-clouds');
+      } else if (color === 'org') {
+        pageBody.classList.add('org-clouds');
+        pageBody.classList.remove('blue-clouds');
+      }; 
+    }
+    
+    function chgShadow(color) {
+      var pageShadow = document.querySelector('button');
+      if (color === 'pink') {
+        pageShadow.classList.add('btn-pink');
+        pageShadow.classList.remove('btn-gold');
+      } else if (color === 'gold') {
+        pageShadow.classList.add('btn-gold');
+        pageShadow.classList.remove('btn-pink');
+      };
+    }
+  </script>
+
+</body>
+
+</html>
