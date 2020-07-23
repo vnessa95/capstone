@@ -1,0 +1,77 @@
+
+    [
+        {
+            
+            "URL":"img/yoga-mat-1.jpg",
+            "name": "eko® yoga mat 6mm",
+            "price": 92.00,
+            "description": "The eko mat provides a naturally grippy surface. Eco-friendly and biodegradable, this non-Amazon harvested tree rubber yoga mat firmly supports your practice."
+        },
+        {
+            "URL":"img/yoga-mat-2.jpg",
+            "name": "prolite® yoga mat 4.7mm",
+            "price": 82.00,
+            "description": "A mid-sized yoga mat that brings unmatched cushioning and comfort to your practice. The PROlite® will never wear out, guaranteed."
+        },
+        {
+            "URL":"img/yoga-mat-3.jpg",
+            "name": "prolite® yoga mat 9.3mm",
+            "price": 92.00,
+            "description": "Bring the heat. Lose the towel. No matter how much you sweat, The Manduka GRP delivers supreme traction with no slip."
+        },
+        {
+            "URL":"img/item1.jpg",
+            "name": "enlight™ rectangle bolster",
+            "price": 68.00,
+            "description": "With its space-saving rectangale shape, Manduka’s enlight™ Rectangular Bolster features 30% recycled fiber-fill to create a firm cushion that provides superior support and cushioning, and sustainable. The rectangular bolster has a removable cover with hidden a zipper and made from our plush, soft and absorbent eQua mico-fiber fabric."
+        },
+        {
+            "URL":"img/item2.jpg",
+            "name": "enlight™ round bolster",
+            "price": 78.00,
+            "description": "The enlight™ Round Bolster is a lightweight, classic, round bolster featuring a resilient, long  lasting fiber-fill to create a firm cushion that provides superior support.To Wash: Remove outer microfiber cover from inner pillow. Machine wash on cold with like colors. Hang or tumble dry on low. Tumble dry on low recommended."
+        },
+        {
+            "URL":"img/item3.jpg",
+            "name": "enlight™ lean bolster",
+            "price": 68.00,
+            "description": "he enlight lean bolster is a lightweight, classic, round bolster featuring a resilient, long lasting fiber-fill to create a firm cushion that provides superior support. Soft, plush, absorbent eQua micro-fiber fabric cover keeps you dry and comfortable. Hidden zipper construction for a smooth, seamless finish."
+        },
+        {
+            "URL":"img/block.jpg",
+            "name": "lean cork yoga block",
+            "price": 6.00,
+            "description": "The Manduka Lean Cork Block may be slimmer than its full-size counterpart, but it's equally supportive. The thinner width is comfortable to hold and easy to travel with, yet provides a solid, stable base for your practice."
+        },
+        {
+            "URL":"img/block2.jpg",
+            "name": "recycled foam yoga block",
+            "price": 6.00,
+            "description": "Between 50% to 75% of each block is guaranteed to contain a mixture of postindustrial and post-consumer recycled EVA foam without compromising durability or performance."
+        },
+        {
+            "URL":"img/block3.jpg",
+            "name": "unblok foam yoga block",
+            "price": 24.00,
+            "description": "Recycled Foam unBLOK, with its functional, sleek design, and high-quality eco-friendly materials, this revolutionary block will help you unBLOK your practice this year. Great investment."
+        },
+        {
+            "URL":"img/wash.jpg",
+            "name": "mat cleanser",
+            "price": 7.00,
+            "description": "A vinegar-based cleaner designed to clean and restore your natural rubber mat."
+        },
+        {
+            "URL":"img/wa.jpg",
+            "name": "mat cleanser",
+            "price": 14.00,
+            "description": "This all-purpose cleaner leaves your yoga mat smelling organically fresh"
+        },
+        {
+            "URL":"img/mat3.jpg",
+            "name": "mat cleanser",
+            "price": 14.00,
+            "description": "Keep your mat feeling & smelling fresh with our Everyday Mat Cleanser. "
+        }
+    ]
+

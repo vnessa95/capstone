@@ -1,0 +1,19 @@
+{
+  "name": "buttons",
+  "version": "1.0.0",
+  "description": "javascript buttons",
+  "main": "index.js",
+  "scripts": {
+    "start": "start",
+    "build": "build",
+    "test": "test",
+    "eject": "eject"
+  },
+  "author": "vanessa baker",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4",
+    "react-scripts": "^3.4.1"
+  }
+}

@@ -1,0 +1,169 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+
+body{
+    font-family: Verdana;
+    background-color: rgb(48, 46, 46);
+
+}
+/* theWhy */
+.quote{
+ font-size: 38px;
+ color: whitesmoke;
+ text-emphasis: left;
+ font-family: 'Gloria Hallelujah', cursive;
+ text-align: center;
+ padding-top: 45px;
+}
+
+.bigquote{
+  color :rgb(206, 173, 24);
+  font-size: 150px;
+  font-family: 'Passion One', cursive;
+}
+
+.bigcap{
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
+.quote:before {
+  border:whitesmoke 2px solid;
+  display: block;
+  content: "";
+}
+
+.quote:after{
+  border: whitesmoke 2px solid;
+  display: block;
+  content: "";
+}
+ 
+   /* SLIDESHOW */
+   .slide-container {
+    width: 80%;
+    margin: auto; 
+    
+  }
+  
+  h3 {
+    text-align: center; }
+  
+    .each-slide > div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 80vh;
+      background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: 500px; 
+    }
+  
+  .each-slide span {
+    padding: 20px;
+    font-size: 20px;
+    background: whitesmoke;
+    text-align: center;
+  }
+  
+  .each-fade {
+    display: flex;
+  }
+  
+  .each-fade .image-container {
+    width: 75%;
+    overflow: hidden;
+  }
+  
+  .each-fade .image-container img {
+    width: 100%;
+  }
+  
+  .each-fade h2 {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background: #adceed;
+  }
+
+
+
+/* media querries */
+@media screen and (max-width: 1020px) { /* Large Desktop */ }
+@media screen and (max-width: 780px) { /* tablet */ }
+@media screen and (max-width: 480px) { /* mobile */ }
+
+
+
+#container {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0),
+     rgba(0, 0, 0, 0.747)
+    ),
+    url(/img/YogaNR.jpg);
+    background-size:     cover;                      /* <------ */
+background-repeat:   no-repeat;
+background-position: center center;
+height: 100%;
+}
+
+#info-container{
+  position: flex;
+  background: whitesmoke;
+  width: 30%;
+  height: 100%;
+  margin: auto;
+  padding: 15px;
+}
+
+#info-container h2{
+  color: black;
+  padding: 45px;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+#info-container p{
+  color: black;
+  text-align: center;
+  font-weight: bold;
+}
+
+#info-container span {
+  font-weight: normal;
+}
+
+#border{
+  border: rgb(206, 173, 24) solid 5px;
+}
+
+
+
+.three-dots {
+  text-align: center;
+}
+
+.three-dots span {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: rgb(206, 173, 24);
+  display: inline-block;
+  margin: 0 15px;
+}
+
